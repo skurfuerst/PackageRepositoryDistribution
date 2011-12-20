@@ -1,0 +1,24 @@
+UPGRADING INSTRUCTIONS
+----------------------
+
+This file contains instructions for upgrading your FLOW3 1.0 beta 2 installation
+to FLOW3 1.0.0.
+
+GIT SUBMODULES
+--------------
+
+Git repository URLs have changed, because we renamed the repositories to include
+the vendor name. You can update by simply pulling the distribution itself and then
+running "git submodule sync". This will update the remote URLs in the submodule
+folders themselves.
+
+ANNOTATION SYNTAX
+-----------------
+
+The syntax for annotations has changed, they are now case-sensitive and namespaced.
+
+A migration script is provided, backup your custom source code and then run
+ Packages/Framework/TYPO3.FLOW3/Scripts/migrate-annotations.php
+
+Look at the changes the script makes and you should be able to understand most of
+what you need to know about the new annotations.
