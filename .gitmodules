@@ -25,3 +25,12 @@
 [submodule "Packages/Application/TYPO3.Surf"]
 	path = Packages/Application/TYPO3.Surf
 	url = git://git.typo3.org/FLOW3/Packages/TYPO3.Surf.git
+[submodule "Packages/Application/TYPO3.ArtifactServer"]
+	path = Packages/Application/TYPO3.ArtifactServer
+	url = git://github.com/skurfuerst/TYPO3.ArtifactServer.git
+[submodule "Packages/Application/Composer"]
+	path = Packages/Application/Composer
+	url = git://github.com/skurfuerst/Composer.git
+[submodule "Packages/Application/SandstormMedia.Semantic"]
+	path = Packages/Application/SandstormMedia.Semantic
+	url = git://github.com/sandstorm/Semantic.git
