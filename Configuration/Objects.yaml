@@ -1,0 +1,2 @@
+SandstormMedia\Semantic\Rdf\TripleStore\StoreConnectorInterface:
+  className: SandstormMedia\Semantic\Rdf\TripleStore\BigdataStoreConnector
